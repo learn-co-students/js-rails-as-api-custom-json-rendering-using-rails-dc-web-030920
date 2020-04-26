@@ -1,0 +1,11 @@
+<h1>Add a Bird!</h1>
+
+<%=form_for @bird do |f|%>
+<%=f.label "Name"%></br>
+<%=f.text_field :name%></br>
+</br>
+<%=f.label "Species"%></br>
+<%=f.text_field :species%></br>
+</br>
+<%=f.submit "Add"%>
+<%end%>
